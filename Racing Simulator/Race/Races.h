@@ -4,8 +4,6 @@
 #include "Racing Simulator/Race/Ground race/GroundRace.h"
 #include "Racing Simulator/Race/Ground and air race/GroundAndAirRace.h"
 
-#include "Racing Simulator/another/specialSyntaxDLL.h"
-
 namespace race_sim {
 	struct Races {
 		GroundRace gRace;

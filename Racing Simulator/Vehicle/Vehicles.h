@@ -8,8 +8,6 @@
 #include "Ground Vehicle/FastMovingCamel/FastMovingCamel.h"
 #include "Air Vehicle/MagicCarpet/MagicСarpet.h"
 
-#include "Racing Simulator/another/specialSyntaxDLL.h"
-
 namespace race_sim {
 	struct Vehicles {
 		BootsAllTerrain boots;
