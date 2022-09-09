@@ -10,7 +10,6 @@ namespace race_sim {
 
 	double Centaur::timeResult(double distanceValue) {
 
-		int numberOfStops = 0;
 		double timeMoving = 0;
 
 		double distanceBeforeRest = speed * timeBeforeRest;
