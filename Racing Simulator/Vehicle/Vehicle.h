@@ -4,7 +4,7 @@
 
 #include "Racing Simulator/Reception/Reception.h"
 #include "Racing Simulator/Race/Race.h"
-#include "TypeOfVehicle.h"
+#include "Racing Simulator/Vehicle/TypeOfVehicle.h"
 #include "Racing Simulator/Race/TypeOfRace.h"
 
 #include "Racing Simulator/another/specialSyntaxDLL.h"
