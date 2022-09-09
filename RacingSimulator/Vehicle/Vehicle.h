@@ -22,11 +22,11 @@ namespace race_sim {
 
 		RACINGSIMULATOR_API std::string getName();
 		RACINGSIMULATOR_API TypeOfVehicle getTypeOfVehicle();
+		RACINGSIMULATOR_API bool getReg();
 
 	protected:
 
 		void registrated(const bool reg);
-		bool getReg();
 
 		virtual double timeResult(double distanceValue);
 		double getResult();
