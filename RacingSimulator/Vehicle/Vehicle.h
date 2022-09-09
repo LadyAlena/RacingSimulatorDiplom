@@ -4,10 +4,10 @@
 
 #include "RacingSimulator/Reception/Reception.h"
 #include "RacingSimulator/Race/Race.h"
-#include "RacingSimulator/Vehicle/TypeOfVehicle.h"
+#include "TypeOfVehicle.h"
 #include "RacingSimulator/Race/TypeOfRace.h"
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 

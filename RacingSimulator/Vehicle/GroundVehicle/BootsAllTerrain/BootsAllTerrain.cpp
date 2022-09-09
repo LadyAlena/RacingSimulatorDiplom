@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/GroundVehicle/BootsAllTerrain/BootsAllTerrain.h"
+﻿#include "BootsAllTerrain.h"
 
 namespace race_sim {
 	BootsAllTerrain::BootsAllTerrain() {

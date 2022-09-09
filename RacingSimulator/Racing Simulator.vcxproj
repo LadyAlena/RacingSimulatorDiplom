@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="another\specialSyntaxDLL.h" />
     <ClInclude Include="Race\AirRace\AirRace.h" />
     <ClInclude Include="Race\GroundAndAirRace\GroundAndAirRace.h" />
     <ClInclude Include="Race\GroundRace\GroundRace.h" />
@@ -29,6 +28,7 @@
     <ClInclude Include="RacingSimulatorExceptions\menu_operation_error.h" />
     <ClInclude Include="RacingSimulatorExceptions\racing_simulator_error.h" />
     <ClInclude Include="Reception\Reception.h" />
+    <ClInclude Include="specialSyntaxDLL.h" />
     <ClInclude Include="Vehicle\AirVehicle\AirVehicle.h" />
     <ClInclude Include="Vehicle\AirVehicle\Broomstick\Broomstick.h" />
     <ClInclude Include="Vehicle\AirVehicle\Eagle\Eagle.h" />

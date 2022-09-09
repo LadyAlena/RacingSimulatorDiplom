@@ -66,9 +66,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="another\specialSyntaxDLL.h">
-      <Filter>another</Filter>
-    </ClInclude>
     <ClInclude Include="Race\Race.h">
       <Filter>Race</Filter>
     </ClInclude>
@@ -131,6 +128,9 @@
     </ClInclude>
     <ClInclude Include="Race\GroundRace\GroundRace.h">
       <Filter>Race\Ground race</Filter>
+    </ClInclude>
+    <ClInclude Include="specialSyntaxDLL.h">
+      <Filter>another</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

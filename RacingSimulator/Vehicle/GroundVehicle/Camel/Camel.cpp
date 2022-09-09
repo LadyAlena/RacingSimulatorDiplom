@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/GroundVehicle/Camel/Camel.h"
+﻿#include "Camel.h"
 
 namespace race_sim {
 	Camel::Camel() {

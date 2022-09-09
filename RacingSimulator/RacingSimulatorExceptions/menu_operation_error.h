@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	class menu_operation_error : public std::out_of_range {

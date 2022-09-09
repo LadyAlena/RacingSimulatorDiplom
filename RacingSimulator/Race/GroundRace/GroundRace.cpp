@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Race/GroundRace/GroundRace.h"
+﻿#include "GroundRace.h"
 
 namespace race_sim {
 	GroundRace::GroundRace() {

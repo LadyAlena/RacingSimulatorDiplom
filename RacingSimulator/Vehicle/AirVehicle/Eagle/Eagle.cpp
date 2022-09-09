@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/AirVehicle/Eagle/Eagle.h"
+﻿#include "Eagle.h"
 
 namespace race_sim {
 	Eagle::Eagle() {

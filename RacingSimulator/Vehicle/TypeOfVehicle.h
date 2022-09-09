@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	enum class RACINGSIMULATOR_API TypeOfVehicle {

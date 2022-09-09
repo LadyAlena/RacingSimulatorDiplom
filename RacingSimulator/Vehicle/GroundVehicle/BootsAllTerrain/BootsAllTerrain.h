@@ -2,7 +2,7 @@
 
 #include "RacingSimulator/Vehicle/GroundVehicle/GroundVehicle.h"
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	class BootsAllTerrain : public GroundVehicle {

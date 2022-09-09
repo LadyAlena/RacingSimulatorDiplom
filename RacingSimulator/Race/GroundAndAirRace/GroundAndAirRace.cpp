@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Race/GroundAndAirRace/GroundAndAirRace.h"
+﻿#include "GroundAndAirRace.h"
 
 namespace race_sim {
 	GroundAndAirRace::GroundAndAirRace() {

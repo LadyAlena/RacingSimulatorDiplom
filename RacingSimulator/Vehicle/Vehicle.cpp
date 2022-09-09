@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/Vehicle.h"
+﻿#include "Vehicle.h"
 
 namespace race_sim {
 	Vehicle::Vehicle() {

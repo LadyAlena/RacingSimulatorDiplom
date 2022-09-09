@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/GroundVehicle/GroundVehicle.h"
+﻿#include "GroundVehicle.h"
 
 namespace race_sim {
 	GroundVehicle::GroundVehicle() {

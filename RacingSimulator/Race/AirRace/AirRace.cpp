@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Race/AirRace/AirRace.h"
+﻿#include "AirRace.h"
 
 namespace race_sim {
 	AirRace::AirRace() {

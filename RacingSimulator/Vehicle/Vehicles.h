@@ -1,12 +1,12 @@
 ﻿#pragma once
 
-#include "RacingSimulator/Vehicle/GroundVehicle/BootsAllTerrain/BootsAllTerrain.h"
-#include "RacingSimulator/Vehicle/AirVehicle/Broomstick/Broomstick.h"
-#include "RacingSimulator/Vehicle/GroundVehicle/Camel/Camel.h"
-#include "RacingSimulator/Vehicle/GroundVehicle/Centaur/Centaur.h"
-#include "RacingSimulator/Vehicle/AirVehicle/Eagle/Eagle.h"
-#include "RacingSimulator/Vehicle/GroundVehicle/FastMovingCamel/FastMovingCamel.h"
-#include "RacingSimulator/Vehicle/AirVehicle/MagicCarpet/MagicСarpet.h"
+#include "GroundVehicle/BootsAllTerrain/BootsAllTerrain.h"
+#include "AirVehicle/Broomstick/Broomstick.h"
+#include "GroundVehicle/Camel/Camel.h"
+#include "GroundVehicle/Centaur/Centaur.h"
+#include "AirVehicle/Eagle/Eagle.h"
+#include "GroundVehicle/FastMovingCamel/FastMovingCamel.h"
+#include "AirVehicle/MagicCarpet/MagicСarpet.h"
 
 namespace race_sim {
 	struct Vehicles {

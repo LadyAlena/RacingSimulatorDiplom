@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Reception/Reception.h"
+﻿#include "Reception.h"
 
 #include <iostream>
 

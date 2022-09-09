@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/AirVehicle/Broomstick/Broomstick.h"
+﻿#include "Broomstick.h"
 
 namespace race_sim {
 	Broomstick::Broomstick() {

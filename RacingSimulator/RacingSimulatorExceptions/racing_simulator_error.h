@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	class racing_simulator_error : public std::domain_error {

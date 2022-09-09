@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/AirVehicle/AirVehicle.h"
+﻿#include "AirVehicle.h"
 
 namespace race_sim {
 	AirVehicle::AirVehicle() {

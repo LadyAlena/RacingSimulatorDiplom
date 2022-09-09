@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/AirVehicle/MagicCarpet/MagicСarpet.h"
+﻿#include "MagicСarpet.h"
 
 namespace race_sim {
 	MagicСarpet::MagicСarpet() {

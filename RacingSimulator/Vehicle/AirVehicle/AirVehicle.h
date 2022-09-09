@@ -2,7 +2,7 @@
 
 #include "RacingSimulator/Vehicle/Vehicle.h"
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	class AirVehicle : public Vehicle {

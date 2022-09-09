@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/GroundVehicle/Centaur/Centaur.h"
+﻿#include "Centaur.h"
 
 namespace race_sim {
 	Centaur::Centaur() {

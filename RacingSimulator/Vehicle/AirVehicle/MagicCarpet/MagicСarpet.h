@@ -2,7 +2,7 @@
 
 #include "RacingSimulator/Vehicle/AirVehicle/AirVehicle.h"
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 	class MagicСarpet : public AirVehicle {

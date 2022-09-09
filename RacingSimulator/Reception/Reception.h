@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "RacingSimulator/Race/TypeOfRace.h"
 
-#include "RacingSimulator/another/specialSyntaxDLL.h"
+#include "RacingSimulator/specialSyntaxDLL.h"
 
 namespace race_sim {
 

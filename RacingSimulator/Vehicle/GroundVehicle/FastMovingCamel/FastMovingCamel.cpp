@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/Vehicle/GroundVehicle/FastMovingCamel/FastMovingCamel.h"
+﻿#include "FastMovingCamel.h"
 
 namespace race_sim {
 	FastMovingCamel::FastMovingCamel() {

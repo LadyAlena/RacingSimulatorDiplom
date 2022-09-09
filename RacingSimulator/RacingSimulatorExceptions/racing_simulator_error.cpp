@@ -1,4 +1,4 @@
-﻿#include "RacingSimulator/RacingSimulatorExceptions/racing_simulator_error.h"
+﻿#include "racing_simulator_error.h"
 
 namespace race_sim {
 
