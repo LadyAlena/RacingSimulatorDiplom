@@ -18,35 +18,78 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="another\specialSyntaxDLL.h" />
+    <ClInclude Include="Race\AirRace\AirRace.h" />
+    <ClInclude Include="Race\GroundAndAirRace\GroundAndAirRace.h" />
+    <ClInclude Include="Race\GroundRace\GroundRace.h" />
+    <ClInclude Include="Race\Race.h" />
+    <ClInclude Include="Race\Races.h" />
+    <ClInclude Include="Race\TypeOfRace.h" />
+    <ClInclude Include="RacingSimulatorExceptions\menu_operation_error.h" />
+    <ClInclude Include="RacingSimulatorExceptions\racing_simulator_error.h" />
+    <ClInclude Include="Reception\Reception.h" />
+    <ClInclude Include="Vehicle\AirVehicle\AirVehicle.h" />
+    <ClInclude Include="Vehicle\AirVehicle\Broomstick\Broomstick.h" />
+    <ClInclude Include="Vehicle\AirVehicle\Eagle\Eagle.h" />
+    <ClInclude Include="Vehicle\AirVehicle\MagicCarpet\MagicСarpet.h" />
+    <ClInclude Include="Vehicle\GroundVehicle\BootsAllTerrain\BootsAllTerrain.h" />
+    <ClInclude Include="Vehicle\GroundVehicle\Camel\Camel.h" />
+    <ClInclude Include="Vehicle\GroundVehicle\Centaur\Centaur.h" />
+    <ClInclude Include="Vehicle\GroundVehicle\FastMovingCamel\FastMovingCamel.h" />
+    <ClInclude Include="Vehicle\GroundVehicle\GroundVehicle.h" />
+    <ClInclude Include="Vehicle\TypeOfVehicle.h" />
+    <ClInclude Include="Vehicle\Vehicle.h" />
+    <ClInclude Include="Vehicle\Vehicles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Race\AirRace\AirRace.cpp" />
+    <ClCompile Include="Race\GroundAndAirRace\GroundAndAirRace.cpp" />
+    <ClCompile Include="Race\GroundRace\GroundRace.cpp" />
+    <ClCompile Include="Race\Race.cpp" />
+    <ClCompile Include="RacingSimulatorExceptions\menu_operation_error.cpp" />
+    <ClCompile Include="RacingSimulatorExceptions\racing_simulator_error.cpp" />
+    <ClCompile Include="Reception\Reception.cpp" />
+    <ClCompile Include="Vehicle\AirVehicle\AirVehicle.cpp" />
+    <ClCompile Include="Vehicle\AirVehicle\Broomstick\Broomstick.cpp" />
+    <ClCompile Include="Vehicle\AirVehicle\Eagle\Eagle.cpp" />
+    <ClCompile Include="Vehicle\AirVehicle\MagicCarpet\MagicСarpet.cpp" />
+    <ClCompile Include="Vehicle\GroundVehicle\BootsAllTerrain\BootsAllTerrain.cpp" />
+    <ClCompile Include="Vehicle\GroundVehicle\Camel\Camel.cpp" />
+    <ClCompile Include="Vehicle\GroundVehicle\Centaur\Centaur.cpp" />
+    <ClCompile Include="Vehicle\GroundVehicle\FastMovingCamel\FastMovingCamel.cpp" />
+    <ClCompile Include="Vehicle\GroundVehicle\GroundVehicle.cpp" />
+    <ClCompile Include="Vehicle\Vehicle.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f8e6a30b-505f-4c1b-8a54-16a4d07835ca}</ProjectGuid>
-    <RootNamespace>RacingSimulatorClient</RootNamespace>
+    <ProjectGuid>{26d6d72b-9aaa-448e-91f9-55b5d9d4006c}</ProjectGuid>
+    <RootNamespace>RacingSimulator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -74,12 +117,13 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;RACINGSIMULATOR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -88,27 +132,29 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;RACINGSIMULATOR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;RACINGSIMULATOR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\ladya\source\repos\RacingSimulatorDiplom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -117,27 +163,17 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;RACINGSIMULATOR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ConvertData\ConvertData.vcxproj">
-      <Project>{57c17b99-ca5f-4f03-8f41-bc0b9b619ab9}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\RacingSimulator\Racing Simulator.vcxproj">
-      <Project>{26d6d72b-9aaa-448e-91f9-55b5d9d4006c}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

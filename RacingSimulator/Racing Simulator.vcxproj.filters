@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Vehicle">
+      <UniqueIdentifier>{313be752-0f3b-4774-b3fb-b206737cd6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Race">
+      <UniqueIdentifier>{89d16d8a-d6ae-4710-b24e-148c56146f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Air Vehicle">
+      <UniqueIdentifier>{4f935983-85b9-4614-b67a-94e6140ccd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Ground Vehicle">
+      <UniqueIdentifier>{95ee1900-40a6-4290-b76a-b4960ba7f5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Race\Ground and Air race">
+      <UniqueIdentifier>{38b38bc6-31cc-4695-9ca4-fb22f48b1d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Race\Air race">
+      <UniqueIdentifier>{193fc4d5-e4c3-47f6-b182-d982817cc998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Race\Ground race">
+      <UniqueIdentifier>{35d36c35-99fa-45a8-a97b-7dcbb81e29e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reception">
+      <UniqueIdentifier>{5124e211-7b45-44f6-99e5-95640ff79037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="another">
+      <UniqueIdentifier>{094867a6-64c3-417b-a3bd-374228024d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Air Vehicle\Broomstick">
+      <UniqueIdentifier>{699398f4-3aa4-4710-a5e6-e76e228c885b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Air Vehicle\Eagle">
+      <UniqueIdentifier>{efa38053-fcbb-486c-b144-05ba23a725af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Air Vehicle\MagicCarpet">
+      <UniqueIdentifier>{e676c669-9e5d-4c57-bd86-71882c74d1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Ground Vehicle\BootsAllTerrain">
+      <UniqueIdentifier>{a286a57a-6232-4304-8b97-99ad72504a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Ground Vehicle\Camel">
+      <UniqueIdentifier>{0900efbb-aa81-42b9-a001-3e56794dea45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Ground Vehicle\Centaur">
+      <UniqueIdentifier>{8b82a084-009c-419d-8d98-ca0e14166593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle\Ground Vehicle\FastMovingCamel">
+      <UniqueIdentifier>{40158681-0f4b-45e6-9872-b1b34890631a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Racing Simulator exceptions">
+      <UniqueIdentifier>{85ea3f2e-69ea-45d9-a8a2-7c36652d5bc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="another\specialSyntaxDLL.h">
+      <Filter>another</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\Race.h">
+      <Filter>Race</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\Races.h">
+      <Filter>Race</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\TypeOfRace.h">
+      <Filter>Race</Filter>
+    </ClInclude>
+    <ClInclude Include="Reception\Reception.h">
+      <Filter>Reception</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\TypeOfVehicle.h">
+      <Filter>Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\Vehicle.h">
+      <Filter>Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\Vehicles.h">
+      <Filter>Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\GroundVehicle\GroundVehicle.h">
+      <Filter>Vehicle\Ground Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\GroundVehicle\FastMovingCamel\FastMovingCamel.h">
+      <Filter>Vehicle\Ground Vehicle\FastMovingCamel</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\GroundVehicle\Centaur\Centaur.h">
+      <Filter>Vehicle\Ground Vehicle\Centaur</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\GroundVehicle\Camel\Camel.h">
+      <Filter>Vehicle\Ground Vehicle\Camel</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\GroundVehicle\BootsAllTerrain\BootsAllTerrain.h">
+      <Filter>Vehicle\Ground Vehicle\BootsAllTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\AirVehicle\AirVehicle.h">
+      <Filter>Vehicle\Air Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\AirVehicle\MagicCarpet\MagicСarpet.h">
+      <Filter>Vehicle\Air Vehicle\MagicCarpet</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\AirVehicle\Eagle\Eagle.h">
+      <Filter>Vehicle\Air Vehicle\Eagle</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\AirVehicle\Broomstick\Broomstick.h">
+      <Filter>Vehicle\Air Vehicle\Broomstick</Filter>
+    </ClInclude>
+    <ClInclude Include="RacingSimulatorExceptions\menu_operation_error.h">
+      <Filter>Racing Simulator exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="RacingSimulatorExceptions\racing_simulator_error.h">
+      <Filter>Racing Simulator exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\AirRace\AirRace.h">
+      <Filter>Race\Air race</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\GroundAndAirRace\GroundAndAirRace.h">
+      <Filter>Race\Ground and Air race</Filter>
+    </ClInclude>
+    <ClInclude Include="Race\GroundRace\GroundRace.h">
+      <Filter>Race\Ground race</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Race\Race.cpp">
+      <Filter>Race</Filter>
+    </ClCompile>
+    <ClCompile Include="Reception\Reception.cpp">
+      <Filter>Reception</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\Vehicle.cpp">
+      <Filter>Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\GroundVehicle\GroundVehicle.cpp">
+      <Filter>Vehicle\Ground Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\GroundVehicle\FastMovingCamel\FastMovingCamel.cpp">
+      <Filter>Vehicle\Ground Vehicle\FastMovingCamel</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\GroundVehicle\Centaur\Centaur.cpp">
+      <Filter>Vehicle\Ground Vehicle\Centaur</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\GroundVehicle\Camel\Camel.cpp">
+      <Filter>Vehicle\Ground Vehicle\Camel</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\GroundVehicle\BootsAllTerrain\BootsAllTerrain.cpp">
+      <Filter>Vehicle\Ground Vehicle\BootsAllTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\AirVehicle\AirVehicle.cpp">
+      <Filter>Vehicle\Air Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\AirVehicle\MagicCarpet\MagicСarpet.cpp">
+      <Filter>Vehicle\Air Vehicle\MagicCarpet</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\AirVehicle\Eagle\Eagle.cpp">
+      <Filter>Vehicle\Air Vehicle\Eagle</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\AirVehicle\Broomstick\Broomstick.cpp">
+      <Filter>Vehicle\Air Vehicle\Broomstick</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingSimulatorExceptions\menu_operation_error.cpp">
+      <Filter>Racing Simulator exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingSimulatorExceptions\racing_simulator_error.cpp">
+      <Filter>Racing Simulator exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Race\AirRace\AirRace.cpp">
+      <Filter>Race\Air race</Filter>
+    </ClCompile>
+    <ClCompile Include="Race\GroundAndAirRace\GroundAndAirRace.cpp">
+      <Filter>Race\Ground and Air race</Filter>
+    </ClCompile>
+    <ClCompile Include="Race\GroundRace\GroundRace.cpp">
+      <Filter>Race\Ground race</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

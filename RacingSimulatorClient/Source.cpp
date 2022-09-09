@@ -3,34 +3,34 @@
 
 /* Библиотека Racing Simulator */
 
-#include "Racing Simulator/Racing simulator exceptions/racing_simulator_error.h"
-#include "Racing Simulator/Racing simulator exceptions/menu_operation_error.h"
+#include "RacingSimulator/RacingSimulatorExceptions/racing_simulator_error.h"
+#include "RacingSimulator/RacingSimulatorExceptions/menu_operation_error.h"
 
-#include "Racing Simulator/Vehicle/TypeOfVehicle.h"
-#include "Racing Simulator/Race/TypeOfRace.h"
+#include "RacingSimulator/Vehicle/TypeOfVehicle.h"
+#include "RacingSimulator/Race/TypeOfRace.h"
 
-#include "Racing Simulator/Vehicle/Vehicle.h"
+#include "RacingSimulator/Vehicle/Vehicle.h"
 
-#include "Racing Simulator/Vehicle/Air Vehicle/AirVehicle.h"
-#include "Racing Simulator/Vehicle/Air Vehicle/Broomstick/Broomstick.h"
-#include "Racing Simulator/Vehicle/Air Vehicle/Eagle/Eagle.h"
-#include "Racing Simulator/Vehicle/Air Vehicle/MagicCarpet/MagicСarpet.h"
+#include "RacingSimulator/Vehicle/AirVehicle/AirVehicle.h"
+#include "RacingSimulator/Vehicle/AirVehicle/Broomstick/Broomstick.h"
+#include "RacingSimulator/Vehicle/AirVehicle/Eagle/Eagle.h"
+#include "RacingSimulator/Vehicle/AirVehicle/MagicCarpet/MagicСarpet.h"
 
-#include "Racing Simulator/Vehicle/Ground Vehicle/GroundVehicle.h"
-#include "Racing Simulator/Vehicle/Ground Vehicle/BootsAllTerrain/BootsAllTerrain.h"
-#include "Racing Simulator/Vehicle/Ground Vehicle/Camel/Camel.h"
-#include "Racing Simulator/Vehicle/Ground Vehicle/Centaur/Centaur.h"
-#include "Racing Simulator/Vehicle/Ground Vehicle/FastMovingCamel/FastMovingCamel.h"
+#include "RacingSimulator/Vehicle/GroundVehicle/GroundVehicle.h"
+#include "RacingSimulator/Vehicle/GroundVehicle/BootsAllTerrain/BootsAllTerrain.h"
+#include "RacingSimulator/Vehicle/GroundVehicle/Camel/Camel.h"
+#include "RacingSimulator/Vehicle/GroundVehicle/Centaur/Centaur.h"
+#include "RacingSimulator/Vehicle/GroundVehicle/FastMovingCamel/FastMovingCamel.h"
 
-#include "Racing Simulator/Race/Race.h"
-#include "Racing Simulator/Race/Air race/AirRace.h"
-#include "Racing Simulator/Race/Ground and air race/GroundAndAirRace.h"
-#include "Racing Simulator/Race/Ground race/GroundRace.h"
+#include "RacingSimulator/Race/Race.h"
+#include "RacingSimulator/Race/AirRace/AirRace.h"
+#include "RacingSimulator/Race/GroundAndAirRace/GroundAndAirRace.h"
+#include "RacingSimulator/Race/GroundRace/GroundRace.h"
 
-#include "Racing Simulator/Reception/Reception.h"
+#include "RacingSimulator/Reception/Reception.h"
 
-#include "Racing Simulator/Vehicle/Vehicles.h"
-#include "Racing Simulator/Race/Races.h"
+#include "RacingSimulator/Vehicle/Vehicles.h"
+#include "RacingSimulator/Race/Races.h"
 
 /* Библиотека Convert Data */
 
