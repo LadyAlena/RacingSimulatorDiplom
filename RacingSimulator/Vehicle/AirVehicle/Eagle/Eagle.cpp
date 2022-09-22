@@ -7,7 +7,7 @@ namespace race_sim {
 		coefficientDistanceReduction = 6;
 	}
 
-	double Eagle::timeResult(double distanceValue) {
+	double Eagle::calculateTimeResult(double distanceValue) {
 
 		distanceValue *= (1 - coefficientDistanceReduction / 100.);
 		result = distanceValue / speed;

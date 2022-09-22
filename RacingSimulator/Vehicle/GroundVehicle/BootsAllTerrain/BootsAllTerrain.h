@@ -10,6 +10,6 @@ namespace race_sim {
 		RACINGSIMULATOR_API BootsAllTerrain();
 
 	protected:
-		double timeResult(double distanceValue) override;
+		double calculateTimeResult(double distanceValue) override;
 	};
 }

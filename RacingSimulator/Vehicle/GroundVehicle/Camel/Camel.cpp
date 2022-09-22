@@ -8,7 +8,7 @@ namespace race_sim {
 		timeRest = 0;
 	}
 
-	double Camel::timeResult(double distanceValue) {
+	double Camel::calculateTimeResult(double distanceValue) {
 
 		int numberOfStops = 0;
 		double timeMoving = 0;
@@ -35,7 +35,7 @@ namespace race_sim {
 
 			distanceValue -= timeMoving * speed;
 
-		} while (distanceValue != 0);
+		} while (distanceValue > 0);
 
 
 		return result;

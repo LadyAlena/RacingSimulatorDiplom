@@ -6,7 +6,7 @@ namespace race_sim {
 		speed = 20;
 	}
 
-	double Broomstick::timeResult(double distanceValue) {
+	double Broomstick::calculateTimeResult(double distanceValue) {
 		coefficientDistanceReduction = static_cast<unsigned int>(distanceValue / 1000);
 
 		if (coefficientDistanceReduction > 100) { distanceValue = 0; }

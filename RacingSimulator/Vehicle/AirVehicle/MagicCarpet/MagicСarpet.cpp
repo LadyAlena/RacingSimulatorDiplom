@@ -6,7 +6,7 @@ namespace race_sim {
 		speed = 10;
 	}
 
-	double MagicСarpet::timeResult(double distanceValue) {
+	double MagicСarpet::calculateTimeResult(double distanceValue) {
 
 		if (distanceValue < 1000) { coefficientDistanceReduction = 0; }
 		else if (distanceValue < 5000) { coefficientDistanceReduction = 3; }

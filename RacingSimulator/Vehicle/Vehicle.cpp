@@ -12,9 +12,9 @@ namespace race_sim {
 	std::string Vehicle::getName() { return name; }
 	TypeOfVehicle Vehicle::getTypeOfVehicle() { return type; }
 
-	void Vehicle::registrated(const bool reg) { this->reg = reg; }
+	void Vehicle::sendRegistrationResult(const bool reg) { this->reg = reg; }
 	bool Vehicle::getReg() { return reg; }
 
-	double Vehicle::timeResult(double distanceValue) { return result; }
+	double Vehicle::calculateTimeResult(double distanceValue) { return result; }
 	double Vehicle::getResult() { return result; }
 }

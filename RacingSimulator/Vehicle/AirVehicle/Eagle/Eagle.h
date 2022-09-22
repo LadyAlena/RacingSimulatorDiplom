@@ -10,6 +10,6 @@ namespace race_sim {
 		RACINGSIMULATOR_API Eagle();
 
 	protected:
-		double timeResult(double distanceValue) override;
+		double calculateTimeResult(double distanceValue) override;
 	};
 }

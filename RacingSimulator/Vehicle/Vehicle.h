@@ -26,9 +26,9 @@ namespace race_sim {
 
 	protected:
 
-		void registrated(const bool reg);
+		void sendRegistrationResult(const bool reg);
 
-		virtual double timeResult(double distanceValue);
+		virtual double calculateTimeResult(double distanceValue);
 		double getResult();
 
 

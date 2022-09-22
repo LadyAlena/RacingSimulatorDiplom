@@ -28,7 +28,7 @@ namespace race_sim {
 		if (!vehicle->getReg()) {
 			std::cout << vehicle->getName() << " успешно зарегистрирован!" << std::endl;
 			resultReg = true;
-			vehicle->registrated(resultReg);
+			vehicle->sendRegistrationResult(resultReg);
 			countReg++;
 		}
 		else {

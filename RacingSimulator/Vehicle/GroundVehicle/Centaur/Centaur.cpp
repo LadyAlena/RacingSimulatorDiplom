@@ -8,7 +8,7 @@ namespace race_sim {
 		timeRest = 2;
 	}
 
-	double Centaur::timeResult(double distanceValue) {
+	double Centaur::calculateTimeResult(double distanceValue) {
 
 		double timeMoving = 0;
 
@@ -29,7 +29,7 @@ namespace race_sim {
 
 			distanceValue -= timeMoving * speed;
 
-		} while (distanceValue != 0);
+		} while (distanceValue > 0);
 
 
 		return result;
